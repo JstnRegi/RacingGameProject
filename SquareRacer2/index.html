@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>SquareRacer2</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+<h1 id="main">SquareRacer2</h1>
+<div class = instructions>
+    <div class="player1">
+        Player 1 controls: <br><br> W = UP <br> S = DOWN <br> A = LEFT <br> D = RIGHT <br>
+    </div>
+    <div class="player2">
+        Player 2 controls: <br><br> I = UP <br> K = DOWN <br> J = LEFT <br> L = RIGHT <br>
+    </div>
+</div>
+<br>
+<div class="wrapper">
+    <div id="player1" class="gameboard">
+        <div class="top left"></div><div class="top"></div><div class= "top"></div><div class="top"></div><div class="top"></div><div class="top"></div><div class="top"></div><div class="top"></div><div class="top"></div><div class="top"></div>
+        <div class="top"></div><div class="top"></div><div class= "top"></div><div class="top"></div><div class="top"></div><div class="top"></div><div class="top"></div><div class="top"></div><div class="top"></div><div class="top right"></div>
+        <div class="left"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div class="right"></div>
+        <div class="left"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div class="right"></div>
+        <div class="left"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div class="right"></div>
+        <div class="bot left"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div>
+        <div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot right"></div>
+
+
+
+    </div>
+    <div id="player2" class="gameboard">
+        <div class="top left"></div><div class="top"></div><div class= "top"></div><div class="top"></div><div class="top"></div><div class="top"></div><div class="top"></div><div class="top"></div><div class="top"></div><div class="top"></div>
+        <div class="top"></div><div class="top"></div><div class= "top"></div><div class="top"></div><div class="top"></div><div class="top"></div><div class="top"></div><div class="top"></div><div class="top"></div><div class="top right"></div>
+        <div class="left"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div class="right"></div>
+        <div class="left"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div class="right"></div>
+        <div class="left"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div class="right"></div>
+        <div class="bot left"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div>
+        <div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot"></div><div class="bot right"></div>
+    </div>
+    <script src="base.js"></script>
+    <button onclick="enemies()">Play</button>
+    <button onclick="restart()">Restart</button>
+    <script>
+        function restart() {
+                window.location.replace("index.html");
+            }
+    </script>
+
+</div>
+</body>
